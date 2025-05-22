@@ -54,7 +54,7 @@ body, html {
   margin: 0 10px;
   font-size: 1.1rem;
 }
-@media (max-width: 1000px) {
+@media (max-width: 10px) {
   video#bg-video {
     object-fit: cover;
     height: 100vh;

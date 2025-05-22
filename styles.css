@@ -59,4 +59,7 @@ h1 {
     margin: 10px 0;
   }
 }
-
+.overlay h1 .alt-font {
+  font-family: 'Courier New', monospace;
+  font-style: italic;
+}

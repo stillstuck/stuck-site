@@ -54,4 +54,11 @@ body, html {
   margin: 0 10px;
   font-size: 1.1rem;
 }
-
+@media (max-width: 600px) {
+  video#bg-video {
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    object-position: center center;
+  }
+}

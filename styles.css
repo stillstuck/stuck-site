@@ -19,7 +19,16 @@ video#bg-video {
   z-index: -1;
   pointer-events: none;
   background-color: black;
-}  
+}
+
+@media (max-width: 768px) {
+  video#bg-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    object-position: center;
+  }
+}
 
 .overlay {
   position: absolute;

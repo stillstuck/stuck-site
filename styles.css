@@ -62,3 +62,6 @@ body, html {
     object-position: center center;
   }
 }
+video#background-video {
+  background-color: red;
+}
